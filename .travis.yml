@@ -9,4 +9,11 @@ branches:
   - master
 addons:
   artifacts: true
+deploy:
+  provider: releases
+  api_key:
+  file: "test.tar.gz"
+  skip_cleanup: true
+  on:
+    tags: true
 
