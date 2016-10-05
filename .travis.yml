@@ -11,7 +11,7 @@ addons:
   artifacts: true
 deploy:
   provider: releases
-  api_key:
+  api_key: "025e303eb712a3299f8450f50895da99794a089f"
   file: "test.tar.gz"
   skip_cleanup: true
   on:
