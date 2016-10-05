@@ -1,0 +1,9 @@
+language: cpp
+sudo: required
+os:
+- windows
+- linux
+branches:
+  only:
+  - master
+
