@@ -30,3 +30,6 @@
 
 #build directory
 build
+
+#swp
+*.swp
