@@ -7,4 +7,6 @@ os:
 branches:
   only:
   - master
+addons:
+  artifacts: true
 
